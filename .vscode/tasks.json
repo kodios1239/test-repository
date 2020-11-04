@@ -5,8 +5,9 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
-                "-g",
+                "-Wall",
                 "${file}",
+                "/home/konrad/Dokumenty/codeblocks/project_test/project_test.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
